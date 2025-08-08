@@ -1,6 +1,6 @@
 import "dotenv/config";
 import mongoose from "mongoose";
-import { CoffeeModel } from "./models/Coffee";
+import { CoffeeModel } from "./models/Coffee.js";
 
 const coffeeList = [
   {

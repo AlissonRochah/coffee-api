@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-import { CoffeeModel } from "./models/Coffee";
+import { CoffeeModel } from "./models/Coffee.js";
 
 const app = express();
 
