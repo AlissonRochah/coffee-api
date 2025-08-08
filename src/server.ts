@@ -8,9 +8,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.NODE_ENV === "production"
-      ? ["https://alissonrochah.com"]
-      : "*",
+    origin: [
+      "http://localhost:5173",
+      "https://coffee-api-reux.onrender.com",
+      "https://alissonrochah.com"
+    ],
   })
 );
 app.use(express.json());
